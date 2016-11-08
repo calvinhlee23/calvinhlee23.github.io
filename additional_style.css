@@ -34,13 +34,9 @@
 }
 
 #sidebar + #wrapper {
-  margin-left: 300px;
 }
 
 #sidebar {
-  width: 300px;
-  margin-top: 60px;
-  height: inherit;
 }
 
 .skills {
