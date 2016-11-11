@@ -33,12 +33,6 @@
   min-height: 0;
 }
 
-#sidebar + #wrapper {
-}
-
-#sidebar {
-}
-
 .skills {
   display: flex;
   list-style: none;
