@@ -41,7 +41,10 @@ ul {
   color: white;
 }
 
-
+.projects section p {
+  margin: 0;
+  padding: 0;
+}
 #f {
   border-bottom: 1px solid grey;
 }
