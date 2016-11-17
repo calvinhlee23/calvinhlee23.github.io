@@ -1,0 +1,146 @@
+#headerwrap {
+  min-height: 0;
+  height: 500px;
+}
+#headerwrap h1 {
+  margin-top: 80px;
+}
+img {
+  width: 450px;
+  height: 300px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.resume-git-linked {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.resume-git-linked li {
+  list-style: none;
+  float: left;
+  border: 1px solid orange;
+  border-radius: 10px;
+  min-width: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.resume-git-linked li:hover {
+  background: black;
+}
+
+.resume-git-linked li a {
+  color: white;
+}
+
+
+#f {
+  border-bottom: 1px solid grey;
+}
+
+#f h1 {
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  min-width: 130px;
+}
+
+#f.projects{
+  display: flex;
+  align-items: center;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.one-project {
+  display: block;
+  margin: 30px;
+}
+
+h2 {
+  color: white;
+}
+.live-git-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.live-git-links li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.used-language {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.used-language li {
+  list-style: none;
+  float: left;
+  border: 1px solid orange;
+  border-radius: 10px;
+  min-width: 100px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+#f.skills {
+  display: flex;
+  align-items: center;
+}
+
+.skills h4 {
+  padding-top: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: orange;
+}
+.skills ul {
+  margin-left: 30px;
+}
+.skills h3 {
+  font-style: italic;
+}
+.skills-languages {
+  display: flex;
+  align-items: center;
+}
+.skills-languages li {
+  list-style: none;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.skills-development {
+  display: flex;
+  align-items: center;
+}
+.skills-development li{
+  list-style: none;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
