@@ -5,6 +5,9 @@
 #headerwrap h1 {
   margin-top: 80px;
 }
+.live-git-links {
+  font-size: 25px;
+}
 img {
   width: 450px;
   height: 300px;
