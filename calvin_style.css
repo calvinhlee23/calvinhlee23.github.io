@@ -62,14 +62,12 @@ ul {
   align-items: center;
 }
 .project-list {
-  display: flex;
-  width: 1600px;
-  justify-content: space-between;
-  margin-left: 40px;
+  display: block;
 }
 
 .one-project {
-  display: block;
+  float: left;
+  margin: 40px;
 }
 
 h2 {
