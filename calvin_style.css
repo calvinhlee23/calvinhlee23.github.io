@@ -144,3 +144,20 @@ h2 {
   margin-left: 15px;
   margin-right: 15px;
 }
+
+#f.contact h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contact-wrapper {
+margin: 0 auto;
+}
+
+#f.contact h3 a {
+  color: orange;
+}
+.github {
+  border-right: 1px solid grey;
+  padding-right: 10px;
+  margin-right: 10px;
+}
