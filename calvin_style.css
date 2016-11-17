@@ -55,16 +55,15 @@ ul {
   display: flex;
   align-items: center;
 }
-
 .project-list {
   display: flex;
-  justify-content: space-around;
+  width: 1600px;
+  justify-content: space-between;
+  margin-left: 40px;
 }
-
 
 .one-project {
   display: block;
-  margin: 30px;
 }
 
 h2 {
