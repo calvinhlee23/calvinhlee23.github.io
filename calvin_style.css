@@ -1,6 +1,10 @@
+body {
+      background: #1a1a1a;
+}
 #headerwrap {
   min-height: 0;
   height: 500px;
+  border-bottom: 1px solid rgb(58, 56, 56)
 }
 #headerwrap h1 {
   margin-top: 80px;
@@ -41,12 +45,13 @@ ul {
   color: white;
 }
 
-.projects section p {
+.portfolio section p {
   margin: 0;
   padding: 0;
 }
 #f {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(58, 56, 56)
+  padding-top: 0;
 }
 
 #f h1 {
@@ -55,16 +60,27 @@ ul {
   margin-top: 10px;
   margin-right: 20px;
   min-width: 130px;
+  text-decoration: underline;
 }
 
-#f.projects{
-  display: flex;
-  align-items: center;
-}
-.project-list {
+#f.portfolio{
   display: block;
+  position: relative;
+  1px solid rgb(58, 56, 56): #1a1a1a;
 }
 
+.project-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgb(58, 56, 56)
+}
+
+#f .project-list h1 {
+  position: absolute;
+  margin: 0;
+  top: 50px;
+}
 .one-project {
   float: left;
   margin: 40px;
@@ -114,6 +130,10 @@ h2 {
 #f.skills {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgb(58, 56, 56);
+  padding-top: 0;
 }
 
 .skills h4 {
@@ -165,4 +185,43 @@ margin: 0 auto;
   border-right: 1px solid grey;
   padding-right: 10px;
   margin-right: 10px;
+}
+
+@media (max-width: 736px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background: #1a1a1a;
+  }
+  h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #f.portfolio {
+    display: block;
+    border: none;
+    padding-bottom: 0;
+  }
+  img {
+    width: 80%
+  }
+  .one-project {
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .project-list {
+    padding-bottom: 25px;
+  }
+  #headerwrap {
+    border-bottom: 1px solid rgb(58, 56, 56);
+    padding-bottom: 533px;
+  }
+  #f.skills {
+    display: none;
+    border: none;
+  }
+  #f.contact {
+    padding-top: 0;
+  }
 }
