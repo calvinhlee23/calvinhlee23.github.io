@@ -1,7 +1,7 @@
 # Calvin's Portfolio Page
 
 ## [Live Link][live]
-[live]: https://calvinlle.io.
+[live]: https://calvinlee.io.
 
 ## Description:
 
